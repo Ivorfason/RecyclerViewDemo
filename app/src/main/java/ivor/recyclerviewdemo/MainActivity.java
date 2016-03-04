@@ -75,7 +75,6 @@ public class MainActivity extends Activity implements View.OnClickListener{
         {
             mHeights.add((int)(100 + Math.random() * 300));
         }
-
     }
 
     @Override
