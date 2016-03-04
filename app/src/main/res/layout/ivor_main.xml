@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/ivor_main_rv"
+        android:divider="#ffff0000"
+        android:dividerHeight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ivor_btnlayout_ll"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/ivor_btnlayout_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/ivor_add_btn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="ADD"/>
+        <Button
+            android:id="@+id/ivor_delete_btn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="DELETE"/>
+    </LinearLayout>
+
+</RelativeLayout>
